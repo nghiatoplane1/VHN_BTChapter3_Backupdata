@@ -1,0 +1,14 @@
+INSERT INTO Ban (MaBan, LoaiBan, SoGhe, ViTriBan, TrangThai)
+VALUES
+    ('B001', 'Bàn 2 người', '2', 'Tầng 1, khu A', 'Trống'),
+    ('B002', 'Bàn 4 người', '4', 'Tầng 1, khu B', 'Đang sử dụng'),
+    ('B003', 'Bàn 6 người', '6', 'Tầng 2, khu C', 'Trống'),
+    ('B004', 'Bàn 8 người', '8', 'Tầng 2, khu D', 'Đang sử dụng');
+
+-- Thêm dữ liệu vào bảng NguoiDung01
+INSERT INTO NguoiDung (MaNguoiDung, HoTen, GioiTinh, NgaySinh, SDT, VaiTro, MaBan)
+VALUES
+    ('U001', N'Nguyễn Văn A', 'Nam', '1990-05-15', '0987654321', 'KhachHang', 'B001'),
+    ('U002', N'Trần Thị B', N'Nữ', '1985-11-20', '0123456789', 'NhanVien', 'B002'),
+    ('U003', N'Lê Hoàng C', 'Nam', '1978-03-01', '0456789012', 'QuanLy', 'B003'),
+    ('U004', N'Phạm Thị D', N'Nữ', '1992-09-08', '0789012345', 'KhachHang', 'B004');
